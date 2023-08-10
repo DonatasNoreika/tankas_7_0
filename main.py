@@ -3,6 +3,7 @@ from tankas import Tankas
 tankas = Tankas()
 
 while True:
+    tankas.musio_laukas()
     tankas.info()
     pasirinkimas = int(input("""
 1 - pirmyn
