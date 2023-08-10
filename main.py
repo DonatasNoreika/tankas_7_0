@@ -9,6 +9,7 @@ while True:
 2 - atgal
 3 - kairen
 4 - desinen
+5 - sauti
 0 - iseiti
 """))
     match pasirinkimas:
@@ -20,5 +21,7 @@ while True:
             tankas.kairen()
         case 4:
             tankas.desinen()
+        case 5:
+            tankas.sauti()
         case 0:
             break
